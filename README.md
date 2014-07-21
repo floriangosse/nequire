@@ -1,6 +1,6 @@
 # nequire [![Build Status](https://secure.travis-ci.org/floriangosse/nequire.png?branch=master)](http://travis-ci.org/floriangosse/nequire)
 
-Requires files by namespaces and paths.
+Requires files by namespaces.
 
 ## Getting Started
 Install the module with: `npm install nequire`
@@ -16,9 +16,18 @@ nequire('helper', 'math/pi'); // require module ./helper/math/pi.js
 ```
 
 ## Documentation
-_(Coming soon)_
 
-## Examples
+### Configuration
+
+To use `nequire` you must call the `configure` method which expect a map of namespaces.
+
+#### map
+* Type: `Object`
+* Default: An empty `Object`
+
+The map contains the namespaces which will be made available. A key of the object is a namespace and the value is the associated path where the modules are located.
+
+### Usage examples
 
 This is a simple webserver example which use `nequire`.
 
