@@ -1,4 +1,4 @@
-# nequire [![Build Status](https://secure.travis-ci.org/floriangosse/nequire.png?branch=master)](http://travis-ci.org/floriangosse/nequire)
+# nequire [![Build Status](https://secure.travis-ci.org/floriangosse/nequire.png?branch=master)](http://travis-ci.org/floriangosse/nequire) [![Greenkeeper badge](https://badges.greenkeeper.io/floriangosse/nequire.svg)](https://greenkeeper.io/)
 
 Requires files by namespaces.
 
